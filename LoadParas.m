@@ -22,4 +22,10 @@ Paras.pher_comple=0;
 Paras.space_confli_puni=10.1;
 
 Paras.maxiter2=10000;
+
+
+
+% 启发式算法参数
+Paras.alpha_heu=0.6;
+
 end
