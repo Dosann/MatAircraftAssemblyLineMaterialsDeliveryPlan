@@ -1,0 +1,1010 @@
+1	30job/3010_1 .txt	feasible	12	6
+2	30job/3010_10 .txt	unknown	14	605
+3	30job/3010_2 .txt	feasible	11	3
+4	30job/3010_3 .txt	feasible	11	3
+5	30job/3010_4 .txt	feasible	12	3
+6	30job/3010_5 .txt	unknown	13	604
+7	30job/3010_6 .txt	feasible	12	3
+8	30job/3010_7 .txt	feasible	12	3
+9	30job/3010_8 .txt	unknown	12	603
+10	30job/3010_9 .txt	feasible	12	2
+11	30job/3011_1.txt	unknown	13	604
+12	30job/3011_10.txt	feasible	12	3
+13	30job/3011_2.txt	feasible	11	3
+14	30job/3011_3.txt	feasible	12	3
+15	30job/3011_4.txt	unknown	12	603
+16	30job/3011_5.txt	feasible	12	3
+17	30job/3011_6.txt	feasible	12	3
+18	30job/3011_7.txt	feasible	12	3
+19	30job/3011_8.txt	feasible	12	3
+20	30job/3011_9.txt	feasible	11	2
+21	30job/3012_1.txt	feasible	12	3
+22	30job/3012_10.txt	feasible	12	3
+23	30job/3012_2.txt	feasible	12	2
+24	30job/3012_3.txt	feasible	12	3
+25	30job/3012_4.txt	feasible	14	3
+26	30job/3012_5.txt	feasible	12	3
+27	30job/3012_6.txt	feasible	12	3
+28	30job/3012_7.txt	unknown	13	603
+29	30job/3012_8.txt	unknown	12	602
+30	30job/3012_9.txt	feasible	12	3
+31	30job/3013_1.txt	feasible	12	4
+32	30job/3013_10.txt	unknown	13	603
+33	30job/3013_2.txt	feasible	12	3
+34	30job/3013_3.txt	feasible	12	3
+35	30job/3013_4.txt	feasible	12	3
+36	30job/3013_5.txt	unknown	12	605
+37	30job/3013_6.txt	unknown	13	604
+38	30job/3013_7.txt	feasible	12	2
+39	30job/3013_8.txt	unknown	13	605
+40	30job/3013_9.txt	unknown	13	605
+41	30job/3014_1.txt	feasible	11	3
+42	30job/3014_10.txt	feasible	12	3
+43	30job/3014_2.txt	feasible	12	2
+44	30job/3014_3.txt	feasible	12	3
+45	30job/3014_4.txt	feasible	12	2
+46	30job/3014_5.txt	feasible	12	2
+47	30job/3014_6.txt	feasible	11	3
+48	30job/3014_7.txt	feasible	12	2
+49	30job/3014_8.txt	feasible	12	3
+50	30job/3014_9.txt	feasible	12	2
+51	30job/3015_1.txt	feasible	11	2
+52	30job/3015_10.txt	feasible	13	7
+53	30job/3015_2.txt	feasible	12	2
+54	30job/3015_3.txt	feasible	12	3
+55	30job/3015_4.txt	feasible	12	3
+56	30job/3015_5.txt	feasible	11	3
+57	30job/3015_6.txt	feasible	12	3
+58	30job/3015_7.txt	feasible	12	3
+59	30job/3015_8.txt	feasible	13	3
+60	30job/3015_9.txt	unknown	13	603
+61	30job/3016_1.txt	unknown	13	605
+62	30job/3016_10.txt	feasible	11	4
+63	30job/3016_2.txt	feasible	12	3
+64	30job/3016_3.txt	unknown	13	604
+65	30job/3016_4.txt	feasible	12	3
+66	30job/3016_5.txt	feasible	12	3
+67	30job/3016_6.txt	unknown	13	603
+68	30job/3016_7.txt	feasible	12	3
+69	30job/3016_8.txt	feasible	12	3
+70	30job/3016_9.txt	feasible	11	3
+71	30job/3017_1.txt	feasible	12	3
+72	30job/3017_10.txt	feasible	11	2
+73	30job/3017_2.txt	feasible	12	3
+74	30job/3017_3.txt	unknown	13	603
+75	30job/3017_4.txt	feasible	12	2
+76	30job/3017_5.txt	unknown	13	603
+77	30job/3017_6.txt	feasible	12	3
+78	30job/3017_7.txt	unknown	13	603
+79	30job/3017_8.txt	unknown	13	604
+80	30job/3017_9.txt	unknown	13	603
+81	30job/3018_1.txt	feasible	11	3
+82	30job/3018_10.txt	feasible	12	3
+83	30job/3018_2.txt	feasible	12	3
+84	30job/3018_3.txt	feasible	11	3
+85	30job/3018_4.txt	feasible	11	2
+86	30job/3018_5.txt	feasible	11	2
+87	30job/3018_6.txt	feasible	12	3
+88	30job/3018_7.txt	feasible	12	3
+89	30job/3018_8.txt	feasible	12	3
+90	30job/3018_9.txt	feasible	12	3
+91	30job/3019_1.txt	feasible	12	3
+92	30job/3019_10.txt	feasible	11	3
+93	30job/3019_2.txt	feasible	11	3
+94	30job/3019_3.txt	feasible	12	3
+95	30job/3019_4.txt	feasible	12	3
+96	30job/3019_5.txt	feasible	11	3
+97	30job/3019_6.txt	unknown	13	604
+98	30job/3019_7.txt	feasible	12	3
+99	30job/3019_8.txt	feasible	12	3
+100	30job/3019_9.txt	feasible	12	3
+101	30job/301_1 .txt	feasible	12	3
+102	30job/301_1.txt	unknown	12	604
+103	30job/301_10 .txt	feasible	13	3
+104	30job/301_10.txt	feasible	12	3
+105	30job/301_2 .txt	feasible	12	3
+106	30job/301_2.txt	feasible	13	3
+107	30job/301_3 .txt	feasible	11	3
+108	30job/301_3.txt	feasible	12	3
+109	30job/301_4 .txt	feasible	13	6
+110	30job/301_4.txt	unknown	13	602
+111	30job/301_5 .txt	unknown	12	604
+112	30job/301_5.txt	feasible	12	3
+113	30job/301_6 .txt	feasible	12	3
+114	30job/301_6.txt	feasible	11	2
+115	30job/301_7 .txt	feasible	12	3
+116	30job/301_7.txt	feasible	11	2
+117	30job/301_8 .txt	unknown	12	604
+118	30job/301_8.txt	feasible	12	3
+119	30job/301_9 .txt	feasible	12	2
+120	30job/301_9.txt	unknown	13	604
+121	30job/3020_1.txt	feasible	12	3
+122	30job/3020_10.txt	feasible	12	3
+123	30job/3020_2.txt	feasible	11	3
+124	30job/3020_3.txt	feasible	12	3
+125	30job/3020_4.txt	unknown	13	604
+126	30job/3020_5.txt	feasible	12	3
+127	30job/3020_6.txt	feasible	12	3
+128	30job/3020_7.txt	feasible	12	3
+129	30job/3020_8.txt	unknown	12	604
+130	30job/3020_9.txt	unknown	12	603
+131	30job/302_1 .txt	feasible	11	3
+132	30job/302_10 .txt	feasible	11	3
+133	30job/302_2 .txt	feasible	12	3
+134	30job/302_3 .txt	feasible	12	3
+135	30job/302_4 .txt	feasible	12	3
+136	30job/302_5 .txt	feasible	12	3
+137	30job/302_6 .txt	feasible	12	3
+138	30job/302_7 .txt	feasible	11	3
+139	30job/302_8 .txt	feasible	12	3
+140	30job/302_9 .txt	feasible	10	3
+141	30job/3030_1 .txt	feasible	12	3
+142	30job/3030_10 .txt	feasible	12	3
+143	30job/3030_2 .txt	unknown	13	603
+144	30job/3030_3 .txt	feasible	12	4
+145	30job/3030_4 .txt	unknown	13	603
+146	30job/3030_5 .txt	unknown	13	603
+147	30job/3030_6 .txt	feasible	12	3
+148	30job/3030_7 .txt	feasible	11	3
+149	30job/3030_8 .txt	feasible	11	3
+150	30job/3030_9 .txt	feasible	12	3
+151	30job/303_1 .txt	feasible	12	3
+152	30job/303_10 .txt	feasible	11	3
+153	30job/303_2 .txt	unknown	13	604
+154	30job/303_3 .txt	unknown	13	604
+155	30job/303_4 .txt	feasible	12	3
+156	30job/303_5 .txt	feasible	12	3
+157	30job/303_6 .txt	feasible	13	3
+158	30job/303_7 .txt	feasible	12	3
+159	30job/303_8 .txt	unknown	12	604
+160	30job/303_9 .txt	feasible	12	3
+161	30job/3040_1 .txt	feasible	12	3
+162	30job/3040_10 .txt	feasible	12	3
+163	30job/3040_2 .txt	feasible	11	3
+164	30job/3040_3 .txt	unknown	13	604
+165	30job/3040_4 .txt	feasible	12	3
+166	30job/3040_5 .txt	feasible	12	3
+167	30job/3040_6 .txt	feasible	11	3
+168	30job/3040_7 .txt	feasible	12	3
+169	30job/3040_8 .txt	unknown	13	603
+170	30job/3040_9 .txt	feasible	12	4
+171	30job/304_1 .txt	unknown	12	605
+172	30job/304_10 .txt	feasible	12	3
+173	30job/304_2 .txt	feasible	12	3
+174	30job/304_3 .txt	feasible	12	3
+175	30job/304_4 .txt	unknown	13	604
+176	30job/304_5 .txt	unknown	12	604
+177	30job/304_6 .txt	feasible	12	3
+178	30job/304_7 .txt	feasible	11	3
+179	30job/304_8 .txt	feasible	11	3
+180	30job/304_9 .txt	feasible	12	3
+181	30job/305_1 .txt	feasible	12	3
+182	30job/305_10 .txt	feasible	12	3
+183	30job/305_2 .txt	feasible	12	3
+184	30job/305_3 .txt	feasible	11	3
+185	30job/305_4 .txt	feasible	11	3
+186	30job/305_5 .txt	feasible	12	3
+187	30job/305_6 .txt	feasible	12	3
+188	30job/305_7 .txt	feasible	12	3
+189	30job/305_8 .txt	feasible	11	3
+190	30job/305_9 .txt	feasible	12	3
+191	30job/306_1 .txt	feasible	11	3
+192	30job/306_10 .txt	feasible	12	3
+193	30job/306_2 .txt	unknown	12	603
+194	30job/306_3 .txt	feasible	11	3
+195	30job/306_4 .txt	feasible	13	3
+196	30job/306_5 .txt	feasible	12	3
+197	30job/306_6 .txt	feasible	12	3
+198	30job/306_7 .txt	feasible	12	3
+199	30job/306_8 .txt	unknown	13	603
+200	30job/306_9 .txt	feasible	13	3
+201	30job/307_1 .txt	feasible	11	3
+202	30job/307_10 .txt	feasible	11	3
+203	30job/307_2 .txt	feasible	11	3
+204	30job/307_3 .txt	unknown	13	604
+205	30job/307_4 .txt	feasible	12	3
+206	30job/307_5 .txt	unknown	13	604
+207	30job/307_6 .txt	feasible	12	3
+208	30job/307_7 .txt	feasible	11	3
+209	30job/307_8 .txt	feasible	11	3
+210	30job/307_9 .txt	feasible	12	3
+211	30job/308_1 .txt	unknown	13	603
+212	30job/308_10 .txt	feasible	12	3
+213	30job/308_2 .txt	feasible	12	3
+214	30job/308_3 .txt	feasible	12	3
+215	30job/308_4 .txt	unknown	13	604
+216	30job/308_5 .txt	unknown	12	603
+217	30job/308_6 .txt	unknown	13	604
+218	30job/308_7 .txt	unknown	12	604
+219	30job/308_8 .txt	unknown	13	604
+220	30job/308_9 .txt	unknown	13	604
+221	30job/309_1 .txt	unknown	12	604
+222	30job/309_10 .txt	unknown	13	604
+223	30job/309_2 .txt	feasible	12	3
+224	30job/309_3 .txt	feasible	11	3
+225	30job/309_4 .txt	feasible	12	3
+226	30job/309_5 .txt	feasible	12	3
+227	30job/309_6 .txt	unknown	12	604
+228	30job/309_7 .txt	feasible	10	3
+229	30job/309_8 .txt	feasible	11	3
+230	30job/309_9 .txt	feasible	11	3
+231	45job/4510_1.txt	feasible	22	26
+232	45job/4510_10.txt	unknown	23	612
+233	45job/4510_2.txt	feasible	24	24
+234	45job/4510_3.txt	unknown	23	613
+235	45job/4510_4.txt	unknown	24	613
+236	45job/4510_5.txt	unknown	22	612
+237	45job/4510_6.txt	feasible	23	24
+238	45job/4510_7.txt	unknown	24	614
+239	45job/4510_8.txt	unknown	25	613
+240	45job/4510_9.txt	unknown	24	610
+241	45job/4511_1.txt	feasible	23	11
+242	45job/4511_10.txt	feasible	23	25
+243	45job/4511_2.txt	feasible	23	35
+244	45job/4511_3.txt	feasible	24	25
+245	45job/4511_4.txt	unknown	23	613
+246	45job/4511_5.txt	feasible	22	11
+247	45job/4511_6.txt	feasible	23	24
+248	45job/4511_7.txt	feasible	22	17
+249	45job/4511_8.txt	unknown	24	612
+250	45job/4511_9.txt	feasible	24	15
+251	45job/4512_1.txt	unknown	25	618
+252	45job/4512_10.txt	feasible	24	11
+253	45job/4512_2.txt	unknown	25	617
+254	45job/4512_3.txt	unknown	24	615
+255	45job/4512_4.txt	unknown	23	613
+256	45job/4512_5.txt	feasible	23	13
+257	45job/4512_6.txt	feasible	23	32
+258	45job/4512_7.txt	unknown	24	615
+259	45job/4512_8.txt	unknown	24	612
+260	45job/4512_9.txt	unknown	23	613
+261	45job/4513_1.txt	feasible	23	27
+262	45job/4513_10.txt	unknown	23	613
+263	45job/4513_2.txt	feasible	23	15
+264	45job/4513_3.txt	feasible	23	32
+265	45job/4513_4.txt	feasible	23	29
+266	45job/4513_5.txt	feasible	24	27
+267	45job/4513_6.txt	feasible	23	14
+268	45job/4513_7.txt	unknown	23	610
+269	45job/4513_8.txt	unknown	24	613
+270	45job/4513_9.txt	unknown	25	612
+271	45job/4514_1.txt	feasible	23	11
+272	45job/4514_10.txt	unknown	24	612
+273	45job/4514_2.txt	feasible	23	16
+274	45job/4514_3.txt	feasible	23	11
+275	45job/4514_4.txt	feasible	24	11
+276	45job/4514_5.txt	feasible	23	22
+277	45job/4514_6.txt	feasible	24	32
+278	45job/4514_7.txt	feasible	23	18
+279	45job/4514_8.txt	unknown	23	615
+280	45job/4514_9.txt	feasible	23	15
+281	45job/4515_1.txt	unknown	23	610
+282	45job/4515_10.txt	feasible	23	23
+283	45job/4515_2.txt	unknown	25	613
+284	45job/4515_3.txt	feasible	24	24
+285	45job/4515_4.txt	unknown	24	613
+286	45job/4515_5.txt	feasible	23	10
+287	45job/4515_6.txt	feasible	22	10
+288	45job/4515_7.txt	unknown	24	610
+289	45job/4515_8.txt	unknown	24	613
+290	45job/4515_9.txt	feasible	23	32
+291	45job/4516_1.txt	feasible	23	34
+292	45job/4516_10.txt	feasible	23	15
+293	45job/4516_2.txt	feasible	23	15
+294	45job/4516_3.txt	feasible	22	38
+295	45job/4516_4.txt	unknown	24	613
+296	45job/4516_5.txt	unknown	25	612
+297	45job/4516_6.txt	unknown	24	612
+298	45job/4516_7.txt	unknown	24	614
+299	45job/4516_8.txt	feasible	23	28
+300	45job/4516_9.txt	feasible	24	23
+301	45job/4517_1.txt	feasible	23	29
+302	45job/4517_10.txt	feasible	23	23
+303	45job/4517_2.txt	unknown	23	612
+304	45job/4517_3.txt	feasible	24	41
+305	45job/4517_4.txt	feasible	22	44
+306	45job/4517_5.txt	feasible	23	10
+307	45job/4517_6.txt	unknown	23	611
+308	45job/4517_7.txt	feasible	24	21
+309	45job/4517_8.txt	unknown	23	614
+310	45job/4517_9.txt	feasible	23	31
+311	45job/4518_1.txt	feasible	23	11
+312	45job/4518_10.txt	feasible	23	17
+313	45job/4518_2.txt	feasible	22	31
+314	45job/4518_3.txt	feasible	23	14
+315	45job/4518_4.txt	feasible	23	29
+316	45job/4518_5.txt	feasible	22	32
+317	45job/4518_6.txt	feasible	23	32
+318	45job/4518_7.txt	unknown	24	610
+319	45job/4518_8.txt	feasible	22	17
+320	45job/4518_9.txt	unknown	24	614
+321	45job/4519_1.txt	feasible	23	10
+322	45job/4519_10.txt	unknown	23	613
+323	45job/4519_2.txt	unknown	24	613
+324	45job/4519_3.txt	feasible	22	23
+325	45job/4519_4.txt	feasible	24	14
+326	45job/4519_5.txt	unknown	26	614
+327	45job/4519_6.txt	feasible	22	29
+328	45job/4519_7.txt	feasible	24	23
+329	45job/4519_8.txt	unknown	24	614
+330	45job/4519_9.txt	feasible	23	11
+331	45job/451_1.txt	feasible	23	33
+332	45job/451_10.txt	feasible	23	35
+333	45job/451_2.txt	feasible	23	15
+334	45job/451_3.txt	feasible	23	17
+335	45job/451_4.txt	unknown	26	614
+336	45job/451_5.txt	feasible	22	28
+337	45job/451_6.txt	feasible	22	10
+338	45job/451_7.txt	feasible	23	22
+339	45job/451_8.txt	unknown	26	611
+340	45job/451_9.txt	feasible	23	20
+341	45job/4520_1.txt	feasible	22	17
+342	45job/4520_10.txt	feasible	23	21
+343	45job/4520_2.txt	feasible	23	17
+344	45job/4520_3.txt	unknown	25	610
+345	45job/4520_4.txt	feasible	23	22
+346	45job/4520_5.txt	unknown	24	615
+347	45job/4520_6.txt	unknown	24	613
+348	45job/4520_7.txt	feasible	24	11
+349	45job/4520_8.txt	unknown	24	614
+350	45job/4520_9.txt	unknown	24	610
+351	45job/452_1.txt	feasible	23	11
+352	45job/452_10.txt	feasible	24	11
+353	45job/452_2.txt	feasible	23	10
+354	45job/452_3.txt	feasible	23	17
+355	45job/452_4.txt	unknown	23	615
+356	45job/452_5.txt	feasible	23	38
+357	45job/452_6.txt	feasible	22	10
+358	45job/452_7.txt	unknown	24	612
+359	45job/452_8.txt	unknown	25	611
+360	45job/452_9.txt	feasible	23	12
+361	45job/4530_1.txt	unknown	24	614
+362	45job/4530_10.txt	unknown	24	613
+363	45job/4530_2.txt	feasible	23	24
+364	45job/4530_3.txt	feasible	23	11
+365	45job/4530_4.txt	feasible	23	34
+366	45job/4530_5.txt	feasible	23	23
+367	45job/4530_6.txt	feasible	23	11
+368	45job/4530_7.txt	feasible	23	39
+369	45job/4530_8.txt	unknown	25	610
+370	45job/4530_9.txt	feasible	23	28
+371	45job/453_1.txt	feasible	24	17
+372	45job/453_10.txt	unknown	24	615
+373	45job/453_2.txt	unknown	25	613
+374	45job/453_3.txt	feasible	22	18
+375	45job/453_4.txt	feasible	23	11
+376	45job/453_5.txt	unknown	24	613
+377	45job/453_6.txt	feasible	23	10
+378	45job/453_7.txt	feasible	23	23
+379	45job/453_8.txt	feasible	23	15
+380	45job/453_9.txt	feasible	24	33
+381	45job/4540_1.txt	unknown	26	611
+382	45job/4540_10.txt	feasible	22	34
+383	45job/4540_2.txt	feasible	23	28
+384	45job/4540_3.txt	feasible	27	121
+385	45job/4540_4.txt	unknown	24	612
+386	45job/4540_5.txt	feasible	22	14
+387	45job/4540_6.txt	unknown	24	614
+388	45job/4540_7.txt	unknown	24	611
+389	45job/4540_8.txt	feasible	21	16
+390	45job/4540_9.txt	feasible	21	16
+391	45job/454_1.txt	feasible	24	27
+392	45job/454_10.txt	feasible	24	24
+393	45job/454_2.txt	feasible	23	18
+394	45job/454_3.txt	feasible	23	30
+395	45job/454_4.txt	unknown	24	614
+396	45job/454_5.txt	unknown	24	611
+397	45job/454_6.txt	feasible	23	23
+398	45job/454_7.txt	feasible	25	11
+399	45job/454_8.txt	unknown	24	614
+400	45job/454_9.txt	feasible	24	42
+401	45job/455_1.txt	unknown	24	613
+402	45job/455_10.txt	unknown	24	612
+403	45job/455_2.txt	unknown	23	613
+404	45job/455_3.txt	feasible	22	29
+405	45job/455_4.txt	feasible	23	22
+406	45job/455_5.txt	feasible	23	14
+407	45job/455_6.txt	unknown	23	614
+408	45job/455_7.txt	feasible	22	11
+409	45job/455_8.txt	feasible	22	16
+410	45job/455_9.txt	unknown	24	614
+411	45job/456_1.txt	feasible	23	15
+412	45job/456_10.txt	feasible	24	33
+413	45job/456_2.txt	feasible	23	15
+414	45job/456_3.txt	feasible	22	14
+415	45job/456_4.txt	feasible	24	35
+416	45job/456_5.txt	feasible	23	33
+417	45job/456_6.txt	feasible	22	11
+418	45job/456_7.txt	feasible	23	24
+419	45job/456_8.txt	feasible	23	11
+420	45job/456_9.txt	unknown	25	614
+421	45job/457_1.txt	feasible	23	17
+422	45job/457_10.txt	unknown	24	614
+423	45job/457_2.txt	feasible	24	31
+424	45job/457_3.txt	feasible	22	29
+425	45job/457_4.txt	feasible	23	25
+426	45job/457_5.txt	feasible	23	22
+427	45job/457_6.txt	feasible	24	28
+428	45job/457_7.txt	feasible	24	29
+429	45job/457_8.txt	feasible	24	34
+430	45job/457_9.txt	feasible	24	36
+431	45job/458_1.txt	unknown	25	612
+432	45job/458_10.txt	unknown	23	613
+433	45job/458_2.txt	feasible	23	11
+434	45job/458_3.txt	feasible	22	10
+435	45job/458_4.txt	feasible	23	34
+436	45job/458_5.txt	feasible	24	10
+437	45job/458_6.txt	unknown	24	614
+438	45job/458_7.txt	feasible	23	10
+439	45job/458_8.txt	feasible	22	15
+440	45job/458_9.txt	feasible	23	34
+441	45job/459_1.txt	feasible	23	15
+442	45job/459_10.txt	feasible	23	23
+443	45job/459_2.txt	unknown	24	613
+444	45job/459_3.txt	unknown	24	613
+445	45job/459_4.txt	feasible	23	29
+446	45job/459_5.txt	feasible	23	18
+447	45job/459_6.txt	unknown	24	613
+448	45job/459_7.txt	feasible	23	15
+449	45job/459_8.txt	feasible	23	28
+450	45job/459_9.txt	feasible	24	40
+451	60job/601_1 .txt	feasible	23	11
+452	60job/601_10 .txt	unknown	24	614
+453	60job/601_2 .txt	feasible	23	32
+454	60job/601_3 .txt	feasible	21	11
+455	60job/601_4 .txt	feasible	24	32
+456	60job/601_5 .txt	feasible	21	19
+457	60job/601_6 .txt	feasible	22	41
+458	60job/601_7 .txt	feasible	24	29
+459	60job/601_8 .txt	feasible	23	11
+460	60job/601_9 .txt	unknown	24	613
+461	60job/6030_1 .txt	unknown	24	615
+462	60job/6030_10 .txt	unknown	25	613
+463	60job/6030_2 .txt	feasible	23	33
+464	60job/6030_3 .txt	unknown	24	613
+465	60job/6030_4 .txt	feasible	23	22
+466	60job/6030_5 .txt	unknown	25	614
+467	60job/6030_6 .txt	unknown	23	613
+468	60job/6030_7 .txt	feasible	23	15
+469	60job/6030_8 .txt	feasible	23	21
+470	60job/6030_9 .txt	unknown	25	613
+471	60job/6040_1 .txt	feasible	23	15
+472	60job/6040_10 .txt	feasible	22	19
+473	60job/6040_2 .txt	feasible	24	32
+474	60job/6040_3 .txt	unknown	24	614
+475	60job/6040_4 .txt	unknown	24	610
+476	60job/6040_5 .txt	unknown	25	613
+477	60job/6040_6 .txt	unknown	23	614
+478	60job/6040_7 .txt	unknown	23	614
+479	60job/6040_8 .txt	feasible	23	24
+480	60job/6040_9 .txt	feasible	22	40
+481	90job/9010_1 .txt	unknown	36	630
+482	90job/9010_10 .txt	unknown	36	624
+483	90job/9010_2 .txt	feasible	34	28
+484	90job/9010_3 .txt	unknown	35	628
+485	90job/9010_4 .txt	feasible	34	87
+486	90job/9010_5 .txt	feasible	34	86
+487	90job/9010_6 .txt	unknown	34	624
+488	90job/9010_7 .txt	feasible	35	120
+489	90job/9010_8 .txt	unknown	35	629
+490	90job/9010_9 .txt	unknown	36	624
+491	90job/9030_1 .txt	unknown	35	625
+492	90job/9030_10 .txt	feasible	34	88
+493	90job/9030_2 .txt	feasible	34	48
+494	90job/9030_3 .txt	feasible	35	133
+495	90job/9030_4 .txt	unknown	36	629
+496	90job/9030_5 .txt	unknown	34	624
+497	90job/9030_6 .txt	feasible	35	77
+498	90job/9030_7 .txt	unknown	34	624
+499	90job/9030_8 .txt	unknown	35	627
+500	90job/9030_9 .txt	unknown	35	626
+501	90job/9040_1 .txt	unknown	35	627
+502	90job/9040_10 .txt	unknown	34	629
+503	90job/9040_2 .txt	unknown	34	631
+504	90job/9040_3 .txt	feasible	34	28
+505	90job/9040_4 .txt	unknown	35	628
+506	90job/9040_5 .txt	unknown	36	624
+507	90job/9040_6 .txt	unknown	35	630
+508	90job/9040_7 .txt	unknown	36	628
+509	90job/9040_8 .txt	feasible	35	196
+510	90job/9040_9 .txt	unknown	35	631
+511	120job/j12010_1.txt	feasible	47	449
+512	120job/j12010_10.txt	unknown	46	643
+513	120job/j12010_2.txt	feasible	45	165
+514	120job/j12010_3.txt	unknown	48	647
+515	120job/j12010_4.txt	unknown	46	642
+516	120job/j12010_5.txt	unknown	46	642
+517	120job/j12010_6.txt	feasible	44	165
+518	120job/j12010_7.txt	unknown	49	642
+519	120job/j12010_8.txt	feasible	46	243
+520	120job/j12010_9.txt	unknown	47	642
+521	120job/j12011_1.txt	feasible	45	143
+522	120job/j12011_10.txt	unknown	46	642
+523	120job/j12011_2.txt	unknown	47	645
+524	120job/j12011_3.txt	unknown	47	642
+525	120job/j12011_4.txt	feasible	45	195
+526	120job/j12011_5.txt	feasible	47	199
+527	120job/j12011_6.txt	unknown	45	649
+528	120job/j12011_7.txt	unknown	48	642
+529	120job/j12011_8.txt	unknown	46	642
+530	120job/j12011_9.txt	unknown	45	647
+531	120job/j12012_1.txt	unknown	47	650
+532	120job/j12012_10.txt	feasible	46	217
+533	120job/j12012_2.txt	unknown	46	642
+534	120job/j12012_3.txt	unknown	46	642
+535	120job/j12012_4.txt	feasible	45	317
+536	120job/j12012_5.txt	unknown	48	642
+537	120job/j12012_6.txt	unknown	46	647
+538	120job/j12012_7.txt	unknown	48	648
+539	120job/j12012_8.txt	unknown	48	642
+540	120job/j12012_9.txt	unknown	47	643
+541	120job/j12013_1.txt	unknown	47	644
+542	120job/j12013_10.txt	unknown	46	650
+543	120job/j12013_2.txt	unknown	49	643
+544	120job/j12013_3.txt	unknown	47	642
+545	120job/j12013_4.txt	feasible	48	326
+546	120job/j12013_5.txt	unknown	47	644
+547	120job/j12013_6.txt	unknown	45	643
+548	120job/j12013_7.txt	feasible	45	184
+549	120job/j12013_8.txt	feasible	45	143
+550	120job/j12013_9.txt	unknown	46	642
+551	120job/j12014_1.txt	unknown	49	643
+552	120job/j12014_10.txt	unknown	46	646
+553	120job/j12014_2.txt	unknown	45	645
+554	120job/j12014_3.txt	unknown	46	642
+555	120job/j12014_4.txt	feasible	45	179
+556	120job/j12014_5.txt	unknown	46	643
+557	120job/j12014_6.txt	unknown	45	647
+558	120job/j12014_7.txt	unknown	47	645
+559	120job/j12014_8.txt	feasible	46	395
+560	120job/j12014_9.txt	unknown	47	642
+561	120job/j12015_1.txt	unknown	46	642
+562	120job/j12015_10.txt	unknown	46	645
+563	120job/j12015_2.txt	unknown	47	647
+564	120job/j12015_3.txt	unknown	48	648
+565	120job/j12015_4.txt	unknown	45	645
+566	120job/j12015_5.txt	unknown	46	642
+567	120job/j12015_6.txt	unknown	46	642
+568	120job/j12015_7.txt	unknown	48	643
+569	120job/j12015_8.txt	unknown	48	652
+570	120job/j12015_9.txt	feasible	46	167
+571	120job/j12016_1.txt	unknown	47	646
+572	120job/j12016_10.txt	feasible	42	292
+573	120job/j12016_2.txt	feasible	45	180
+574	120job/j12016_3.txt	feasible	44	83
+575	120job/j12016_4.txt	feasible	46	155
+576	120job/j12016_5.txt	feasible	43	200
+577	120job/j12016_6.txt	unknown	45	642
+578	120job/j12016_7.txt	unknown	45	648
+579	120job/j12016_8.txt	feasible	44	206
+580	120job/j12016_9.txt	feasible	45	151
+581	120job/j12017_1.txt	unknown	48	644
+582	120job/j12017_10.txt	feasible	44	225
+583	120job/j12017_2.txt	unknown	47	650
+584	120job/j12017_3.txt	unknown	48	648
+585	120job/j12017_4.txt	unknown	45	647
+586	120job/j12017_5.txt	unknown	45	652
+587	120job/j12017_6.txt	unknown	49	648
+588	120job/j12017_7.txt	unknown	47	646
+589	120job/j12017_8.txt	unknown	48	648
+590	120job/j12017_9.txt	feasible	45	159
+591	120job/j12018_1.txt	unknown	47	649
+592	120job/j12018_10.txt	feasible	45	164
+593	120job/j12018_2.txt	unknown	45	649
+594	120job/j12018_3.txt	unknown	46	651
+595	120job/j12018_4.txt	unknown	48	653
+596	120job/j12018_5.txt	unknown	48	646
+597	120job/j12018_6.txt	unknown	47	645
+598	120job/j12018_7.txt	unknown	46	653
+599	120job/j12018_8.txt	unknown	47	650
+600	120job/j12018_9.txt	unknown	45	647
+601	120job/j12019_1.txt	unknown	47	642
+602	120job/j12019_10.txt	unknown	48	647
+603	120job/j12019_2.txt	unknown	45	646
+604	120job/j12019_3.txt	unknown	45	649
+605	120job/j12019_4.txt	unknown	46	643
+606	120job/j12019_5.txt	feasible	46	169
+607	120job/j12019_6.txt	unknown	46	645
+608	120job/j12019_7.txt	unknown	46	643
+609	120job/j12019_8.txt	unknown	47	646
+610	120job/j12019_9.txt	unknown	47	643
+611	120job/j1201_1.txt	unknown	47	643
+612	120job/j1201_10.txt	feasible	43	119
+613	120job/j1201_2.txt	unknown	47	643
+614	120job/j1201_3.txt	unknown	47	643
+615	120job/j1201_4.txt	feasible	44	168
+616	120job/j1201_5.txt	unknown	48	643
+617	120job/j1201_6.txt	feasible	47	171
+618	120job/j1201_7.txt	feasible	46	214
+619	120job/j1201_8.txt	unknown	46	645
+620	120job/j1201_9.txt	feasible	46	147
+621	120job/j12020_1.txt	unknown	46	643
+622	120job/j12020_10.txt	feasible	46	121
+623	120job/j12020_2.txt	unknown	48	643
+624	120job/j12020_3.txt	feasible	44	145
+625	120job/j12020_4.txt	unknown	44	644
+626	120job/j12020_5.txt	unknown	46	649
+627	120job/j12020_6.txt	unknown	46	649
+628	120job/j12020_7.txt	unknown	47	643
+629	120job/j12020_8.txt	unknown	46	651
+630	120job/j12020_9.txt	feasible	45	526
+631	120job/j12021_1.txt	unknown	46	657
+632	120job/j12021_10.txt	unknown	47	644
+633	120job/j12021_2.txt	unknown	46	647
+634	120job/j12021_3.txt	unknown	48	645
+635	120job/j12021_4.txt	feasible	46	395
+636	120job/j12021_5.txt	feasible	46	334
+637	120job/j12021_6.txt	unknown	46	643
+638	120job/j12021_7.txt	feasible	48	260
+639	120job/j12021_8.txt	unknown	48	646
+640	120job/j12021_9.txt	unknown	47	643
+641	120job/j12022_1.txt	feasible	46	108
+642	120job/j12022_10.txt	feasible	45	156
+643	120job/j12022_2.txt	unknown	47	648
+644	120job/j12022_3.txt	unknown	47	651
+645	120job/j12022_4.txt	unknown	47	655
+646	120job/j12022_5.txt	feasible	44	151
+647	120job/j12022_6.txt	unknown	48	649
+648	120job/j12022_7.txt	unknown	47	654
+649	120job/j12022_8.txt	unknown	47	643
+650	120job/j12022_9.txt	unknown	48	649
+651	120job/j12023_1.txt	unknown	47	646
+652	120job/j12023_10.txt	unknown	47	649
+653	120job/j12023_2.txt	unknown	47	650
+654	120job/j12023_3.txt	feasible	45	323
+655	120job/j12023_4.txt	unknown	47	651
+656	120job/j12023_5.txt	unknown	46	651
+657	120job/j12023_6.txt	feasible	45	486
+658	120job/j12023_7.txt	unknown	45	649
+659	120job/j12023_8.txt	feasible	45	65
+660	120job/j12023_9.txt	unknown	46	647
+661	120job/j12024_1.txt	unknown	45	644
+662	120job/j12024_10.txt	feasible	44	151
+663	120job/j12024_2.txt	feasible	44	160
+664	120job/j12024_3.txt	feasible	46	313
+665	120job/j12024_4.txt	unknown	48	643
+666	120job/j12024_5.txt	unknown	46	647
+667	120job/j12024_6.txt	unknown	48	650
+668	120job/j12024_7.txt	feasible	44	134
+669	120job/j12024_8.txt	unknown	46	648
+670	120job/j12024_9.txt	feasible	46	198
+671	120job/j12025_1.txt	unknown	45	643
+672	120job/j12025_10.txt	feasible	45	116
+673	120job/j12025_2.txt	unknown	48	651
+674	120job/j12025_3.txt	feasible	44	159
+675	120job/j12025_4.txt	feasible	45	374
+676	120job/j12025_5.txt	unknown	46	653
+677	120job/j12025_6.txt	feasible	46	146
+678	120job/j12025_7.txt	feasible	46	374
+679	120job/j12025_8.txt	unknown	45	646
+680	120job/j12025_9.txt	unknown	46	647
+681	120job/j12026_1.txt	feasible	47	238
+682	120job/j12026_10.txt	feasible	44	212
+683	120job/j12026_2.txt	feasible	46	338
+684	120job/j12026_3.txt	unknown	48	647
+685	120job/j12026_4.txt	feasible	46	143
+686	120job/j12026_5.txt	unknown	47	654
+687	120job/j12026_6.txt	unknown	46	652
+688	120job/j12026_7.txt	unknown	47	650
+689	120job/j12026_8.txt	unknown	47	651
+690	120job/j12026_9.txt	unknown	47	649
+691	120job/j12027_1.txt	unknown	44	644
+692	120job/j12027_10.txt	unknown	46	644
+693	120job/j12027_2.txt	unknown	45	653
+694	120job/j12027_3.txt	unknown	48	643
+695	120job/j12027_4.txt	unknown	45	649
+696	120job/j12027_5.txt	feasible	45	155
+697	120job/j12027_6.txt	unknown	46	644
+698	120job/j12027_7.txt	unknown	46	644
+699	120job/j12027_8.txt	unknown	47	650
+700	120job/j12027_9.txt	unknown	47	644
+701	120job/j12028_1.txt	unknown	48	644
+702	120job/j12028_10.txt	unknown	47	649
+703	120job/j12028_2.txt	feasible	45	251
+704	120job/j12028_3.txt	unknown	46	647
+705	120job/j12028_4.txt	unknown	46	644
+706	120job/j12028_5.txt	unknown	47	651
+707	120job/j12028_6.txt	unknown	46	644
+708	120job/j12028_7.txt	unknown	46	644
+709	120job/j12028_8.txt	unknown	48	644
+710	120job/j12028_9.txt	unknown	46	645
+711	120job/j12029_1.txt	feasible	46	170
+712	120job/j12029_10.txt	feasible	46	316
+713	120job/j12029_2.txt	unknown	48	644
+714	120job/j12029_3.txt	feasible	45	189
+715	120job/j12029_4.txt	feasible	46	154
+716	120job/j12029_5.txt	unknown	46	644
+717	120job/j12029_6.txt	feasible	45	132
+718	120job/j12029_7.txt	unknown	45	644
+719	120job/j12029_8.txt	feasible	46	216
+720	120job/j12029_9.txt	unknown	46	644
+721	120job/j1202_1.txt	unknown	45	652
+722	120job/j1202_10.txt	feasible	48	516
+723	120job/j1202_2.txt	feasible	44	316
+724	120job/j1202_3.txt	feasible	43	302
+725	120job/j1202_4.txt	unknown	47	649
+726	120job/j1202_5.txt	unknown	48	648
+727	120job/j1202_6.txt	unknown	48	654
+728	120job/j1202_7.txt	unknown	46	648
+729	120job/j1202_8.txt	unknown	46	644
+730	120job/j1202_9.txt	unknown	48	645
+731	120job/j12030_1.txt	unknown	45	652
+732	120job/j12030_10.txt	feasible	44	152
+733	120job/j12030_2.txt	unknown	46	644
+734	120job/j12030_3.txt	unknown	46	648
+735	120job/j12030_4.txt	feasible	45	88
+736	120job/j12030_5.txt	feasible	46	285
+737	120job/j12030_6.txt	feasible	47	556
+738	120job/j12030_7.txt	feasible	45	254
+739	120job/j12030_8.txt	feasible	46	172
+740	120job/j12030_9.txt	unknown	46	644
+741	120job/j12031_1.txt	feasible	44	292
+742	120job/j12031_10.txt	feasible	44	552
+743	120job/j12031_2.txt	unknown	48	651
+744	120job/j12031_3.txt	unknown	46	644
+745	120job/j12031_4.txt	unknown	48	653
+746	120job/j12031_5.txt	feasible	46	351
+747	120job/j12031_6.txt	unknown	46	644
+748	120job/j12031_7.txt	unknown	47	644
+749	120job/j12031_8.txt	feasible	45	344
+750	120job/j12031_9.txt	feasible	45	630
+751	120job/j12032_1.txt	feasible	45	259
+752	120job/j12032_10.txt	unknown	47	652
+753	120job/j12032_2.txt	unknown	47	653
+754	120job/j12032_3.txt	unknown	46	651
+755	120job/j12032_4.txt	unknown	46	649
+756	120job/j12032_5.txt	unknown	47	644
+757	120job/j12032_6.txt	unknown	46	644
+758	120job/j12032_7.txt	unknown	47	647
+759	120job/j12032_8.txt	unknown	47	644
+760	120job/j12032_9.txt	feasible	45	111
+761	120job/j12033_1.txt	unknown	48	646
+762	120job/j12033_10.txt	unknown	46	657
+763	120job/j12033_2.txt	unknown	46	644
+764	120job/j12033_3.txt	unknown	47	644
+765	120job/j12033_4.txt	feasible	46	330
+766	120job/j12033_5.txt	unknown	48	644
+767	120job/j12033_6.txt	feasible	44	309
+768	120job/j12033_7.txt	feasible	45	217
+769	120job/j12033_8.txt	unknown	47	655
+770	120job/j12033_9.txt	feasible	45	128
+771	120job/j12034_1.txt	feasible	46	534
+772	120job/j12034_10.txt	feasible	45	254
+773	120job/j12034_2.txt	feasible	44	151
+774	120job/j12034_3.txt	feasible	46	194
+775	120job/j12034_4.txt	unknown	47	655
+776	120job/j12034_5.txt	unknown	46	644
+777	120job/j12034_6.txt	unknown	48	646
+778	120job/j12034_7.txt	unknown	47	652
+779	120job/j12034_8.txt	unknown	47	644
+780	120job/j12034_9.txt	unknown	48	644
+781	120job/j12035_1.txt	unknown	47	652
+782	120job/j12035_10.txt	unknown	49	652
+783	120job/j12035_2.txt	unknown	47	644
+784	120job/j12035_3.txt	unknown	47	656
+785	120job/j12035_4.txt	unknown	46	644
+786	120job/j12035_5.txt	unknown	47	656
+787	120job/j12035_6.txt	unknown	49	644
+788	120job/j12035_7.txt	unknown	47	653
+789	120job/j12035_8.txt	unknown	46	644
+790	120job/j12035_9.txt	unknown	47	652
+791	120job/j12036_1.txt	unknown	46	644
+792	120job/j12036_10.txt	unknown	45	644
+793	120job/j12036_2.txt	unknown	47	644
+794	120job/j12036_3.txt	feasible	44	147
+795	120job/j12036_4.txt	unknown	45	647
+796	120job/j12036_5.txt	unknown	48	653
+797	120job/j12036_6.txt	feasible	44	201
+798	120job/j12036_7.txt	unknown	47	644
+799	120job/j12036_8.txt	feasible	45	257
+800	120job/j12036_9.txt	feasible	45	156
+801	120job/j12037_1.txt	unknown	46	652
+802	120job/j12037_10.txt	unknown	47	659
+803	120job/j12037_2.txt	feasible	45	390
+804	120job/j12037_3.txt	unknown	45	644
+805	120job/j12037_4.txt	unknown	46	660
+806	120job/j12037_5.txt	unknown	47	654
+807	120job/j12037_6.txt	feasible	46	224
+808	120job/j12037_7.txt	unknown	47	644
+809	120job/j12037_8.txt	unknown	45	646
+810	120job/j12037_9.txt	unknown	48	648
+811	120job/j12038_1.txt	unknown	48	657
+812	120job/j12038_10.txt	feasible	45	269
+813	120job/j12038_2.txt	unknown	45	644
+814	120job/j12038_3.txt	unknown	48	647
+815	120job/j12038_4.txt	unknown	48	653
+816	120job/j12038_5.txt	feasible	45	329
+817	120job/j12038_6.txt	unknown	47	645
+818	120job/j12038_7.txt	feasible	46	153
+819	120job/j12038_8.txt	unknown	46	645
+820	120job/j12038_9.txt	unknown	46	655
+821	120job/j12039_1.txt	unknown	46	649
+822	120job/j12039_10.txt	unknown	46	650
+823	120job/j12039_2.txt	feasible	44	270
+824	120job/j12039_3.txt	unknown	46	644
+825	120job/j12039_4.txt	unknown	47	654
+826	120job/j12039_5.txt	unknown	47	655
+827	120job/j12039_6.txt	feasible	44	176
+828	120job/j12039_7.txt	feasible	44	307
+829	120job/j12039_8.txt	unknown	44	644
+830	120job/j12039_9.txt	unknown	47	645
+831	120job/j1203_1.txt	unknown	46	656
+832	120job/j1203_10.txt	unknown	46	646
+833	120job/j1203_2.txt	unknown	47	654
+834	120job/j1203_3.txt	unknown	47	656
+835	120job/j1203_4.txt	feasible	45	110
+836	120job/j1203_5.txt	unknown	46	651
+837	120job/j1203_6.txt	feasible	44	164
+838	120job/j1203_7.txt	unknown	47	653
+839	120job/j1203_8.txt	unknown	47	660
+840	120job/j1203_9.txt	unknown	47	659
+841	120job/j12040_1.txt	unknown	45	648
+842	120job/j12040_10.txt	feasible	47	150
+843	120job/j12040_2.txt	unknown	46	655
+844	120job/j12040_3.txt	unknown	47	645
+845	120job/j12040_4.txt	unknown	45	646
+846	120job/j12040_5.txt	unknown	46	646
+847	120job/j12040_6.txt	unknown	46	646
+848	120job/j12040_7.txt	unknown	46	644
+849	120job/j12040_8.txt	unknown	48	660
+850	120job/j12040_9.txt	feasible	46	166
+851	120job/j12041_1.txt	unknown	44	645
+852	120job/j12041_10.txt	unknown	48	657
+853	120job/j12041_2.txt	feasible	43	91
+854	120job/j12041_3.txt	unknown	47	657
+855	120job/j12041_4.txt	unknown	45	645
+856	120job/j12041_5.txt	unknown	45	661
+857	120job/j12041_6.txt	feasible	44	305
+858	120job/j12041_7.txt	unknown	47	656
+859	120job/j12041_8.txt	unknown	47	645
+860	120job/j12041_9.txt	feasible	46	618
+861	120job/j12042_1.txt	feasible	49	482
+862	120job/j12042_10.txt	unknown	48	657
+863	120job/j12042_2.txt	feasible	47	407
+864	120job/j12042_3.txt	feasible	44	151
+865	120job/j12042_4.txt	unknown	47	659
+866	120job/j12042_5.txt	feasible	44	236
+867	120job/j12042_6.txt	unknown	45	645
+868	120job/j12042_7.txt	feasible	45	170
+869	120job/j12042_8.txt	feasible	45	404
+870	120job/j12042_9.txt	unknown	47	645
+871	120job/j12043_1.txt	unknown	48	656
+872	120job/j12043_10.txt	feasible	44	433
+873	120job/j12043_2.txt	feasible	46	320
+874	120job/j12043_3.txt	unknown	47	655
+875	120job/j12043_4.txt	feasible	45	200
+876	120job/j12043_5.txt	unknown	46	657
+877	120job/j12043_6.txt	unknown	48	649
+878	120job/j12043_7.txt	unknown	46	656
+879	120job/j12043_8.txt	unknown	47	652
+880	120job/j12043_9.txt	unknown	46	646
+881	120job/j12044_1.txt	unknown	46	645
+882	120job/j12044_10.txt	unknown	46	655
+883	120job/j12044_2.txt	unknown	47	657
+884	120job/j12044_3.txt	feasible	43	90
+885	120job/j12044_4.txt	unknown	46	649
+886	120job/j12044_5.txt	unknown	48	657
+887	120job/j12044_6.txt	unknown	46	655
+888	120job/j12044_7.txt	unknown	46	657
+889	120job/j12044_8.txt	unknown	45	646
+890	120job/j12044_9.txt	unknown	46	665
+891	120job/j12045_1.txt	feasible	45	177
+892	120job/j12045_10.txt	unknown	47	645
+893	120job/j12045_2.txt	unknown	47	651
+894	120job/j12045_3.txt	unknown	48	645
+895	120job/j12045_4.txt	unknown	46	659
+896	120job/j12045_5.txt	unknown	47	646
+897	120job/j12045_6.txt	unknown	48	654
+898	120job/j12045_7.txt	unknown	46	656
+899	120job/j12045_8.txt	unknown	47	660
+900	120job/j12045_9.txt	unknown	45	644
+901	120job/j12046_1.txt	unknown	46	645
+902	120job/j12046_10.txt	feasible	45	200
+903	120job/j12046_2.txt	feasible	46	202
+904	120job/j12046_3.txt	feasible	45	184
+905	120job/j12046_4.txt	unknown	48	646
+906	120job/j12046_5.txt	feasible	45	263
+907	120job/j12046_6.txt	unknown	46	656
+908	120job/j12046_7.txt	unknown	49	654
+909	120job/j12046_8.txt	feasible	46	168
+910	120job/j12046_9.txt	unknown	46	646
+911	120job/j12047_1.txt	unknown	46	656
+912	120job/j12047_10.txt	feasible	45	213
+913	120job/j12047_2.txt	unknown	44	657
+914	120job/j12047_3.txt	unknown	46	645
+915	120job/j12047_4.txt	feasible	46	120
+916	120job/j12047_5.txt	feasible	46	398
+917	120job/j12047_6.txt	feasible	45	363
+918	120job/j12047_7.txt	unknown	46	645
+919	120job/j12047_8.txt	unknown	45	654
+920	120job/j12047_9.txt	unknown	46	647
+921	120job/j12048_1.txt	unknown	46	658
+922	120job/j12048_10.txt	unknown	46	658
+923	120job/j12048_2.txt	unknown	46	649
+924	120job/j12048_3.txt	feasible	44	220
+925	120job/j12048_4.txt	unknown	48	660
+926	120job/j12048_5.txt	unknown	46	645
+927	120job/j12048_6.txt	feasible	46	289
+928	120job/j12048_7.txt	feasible	45	419
+929	120job/j12048_8.txt	unknown	46	659
+930	120job/j12048_9.txt	feasible	48	400
+931	120job/j12049_1.txt	unknown	47	649
+932	120job/j12049_10.txt	unknown	47	659
+933	120job/j12049_2.txt	unknown	46	652
+934	120job/j12049_3.txt	feasible	45	154
+935	120job/j12049_4.txt	unknown	45	658
+936	120job/j12049_5.txt	unknown	44	645
+937	120job/j12049_6.txt	unknown	47	648
+938	120job/j12049_7.txt	feasible	47	505
+939	120job/j12049_8.txt	feasible	43	131
+940	120job/j12049_9.txt	unknown	47	659
+941	120job/j1204_1.txt	unknown	46	657
+942	120job/j1204_10.txt	feasible	44	150
+943	120job/j1204_2.txt	feasible	45	329
+944	120job/j1204_3.txt	unknown	47	651
+945	120job/j1204_4.txt	unknown	45	646
+946	120job/j1204_5.txt	unknown	46	646
+947	120job/j1204_6.txt	unknown	47	665
+948	120job/j1204_7.txt	unknown	47	646
+949	120job/j1204_8.txt	feasible	44	155
+950	120job/j1204_9.txt	unknown	47	649
+951	120job/j12050_1.txt	feasible	44	149
+952	120job/j12050_10.txt	feasible	47	274
+953	120job/j12050_2.txt	feasible	45	161
+954	120job/j12050_3.txt	unknown	47	646
+955	120job/j12050_4.txt	unknown	47	646
+956	120job/j12050_5.txt	feasible	45	188
+957	120job/j12050_6.txt	unknown	49	646
+958	120job/j12050_7.txt	unknown	46	646
+959	120job/j12050_8.txt	unknown	46	646
+960	120job/j12050_9.txt	unknown	48	646
+961	120job/j1205_1.txt	feasible	46	483
+962	120job/j1205_10.txt	unknown	46	659
+963	120job/j1205_2.txt	feasible	45	168
+964	120job/j1205_3.txt	unknown	48	653
+965	120job/j1205_4.txt	feasible	45	157
+966	120job/j1205_5.txt	feasible	46	127
+967	120job/j1205_6.txt	unknown	47	656
+968	120job/j1205_7.txt	unknown	47	646
+969	120job/j1205_8.txt	feasible	44	153
+970	120job/j1205_9.txt	unknown	45	646
+971	120job/j1206_1.txt	unknown	48	652
+972	120job/j1206_10.txt	unknown	45	658
+973	120job/j1206_2.txt	unknown	46	647
+974	120job/j1206_3.txt	feasible	47	374
+975	120job/j1206_4.txt	unknown	48	646
+976	120job/j1206_5.txt	feasible	43	193
+977	120job/j1206_6.txt	unknown	46	651
+978	120job/j1206_7.txt	feasible	45	276
+979	120job/j1206_8.txt	unknown	49	645
+980	120job/j1206_9.txt	unknown	47	661
+981	120job/j1207_1.txt	unknown	46	646
+982	120job/j1207_10.txt	unknown	45	657
+983	120job/j1207_2.txt	unknown	46	646
+984	120job/j1207_3.txt	feasible	45	456
+985	120job/j1207_4.txt	unknown	48	659
+986	120job/j1207_5.txt	feasible	46	242
+987	120job/j1207_6.txt	feasible	45	100
+988	120job/j1207_7.txt	feasible	43	260
+989	120job/j1207_8.txt	unknown	47	653
+990	120job/j1207_9.txt	feasible	46	273
+991	120job/j1208_1.txt	unknown	46	654
+992	120job/j1208_10.txt	feasible	44	157
+993	120job/j1208_2.txt	unknown	46	646
+994	120job/j1208_3.txt	feasible	45	171
+995	120job/j1208_4.txt	unknown	46	646
+996	120job/j1208_5.txt	unknown	47	651
+997	120job/j1208_6.txt	feasible	45	423
+998	120job/j1208_7.txt	feasible	45	150
+999	120job/j1208_8.txt	feasible	45	180
+1000	120job/j1208_9.txt	unknown	48	647
+1001	120job/j1209_1.txt	unknown	45	680
+1002	120job/j1209_10.txt	unknown	47	667
+1003	120job/j1209_2.txt	unknown	47	666
+1004	120job/j1209_3.txt	feasible	45	221
+1005	120job/j1209_4.txt	unknown	47	665
+1006	120job/j1209_5.txt	unknown	47	666
+1007	120job/j1209_6.txt	unknown	47	666
+1008	120job/j1209_7.txt	unknown	47	676
+1009	120job/j1209_8.txt	unknown	48	655
+1010	120job/j1209_9.txt	unknown	47	649
