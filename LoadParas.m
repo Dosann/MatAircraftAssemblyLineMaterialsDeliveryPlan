@@ -9,7 +9,7 @@ Paras.L=200;
 Paras.C=20;
 Paras.v=0.5;
 
-Paras.popsize=10;
+Paras.popsize=50;
 Paras.maxiter=100;
 Paras.alpha=1;
 Paras.beta=0.2;
@@ -21,5 +21,5 @@ Paras.best_ant_count=5;
 Paras.pher_comple=0;
 Paras.space_confli_puni=10.1;
 
-Paras.maxiter2=1000;
+Paras.maxiter2=10000;
 end

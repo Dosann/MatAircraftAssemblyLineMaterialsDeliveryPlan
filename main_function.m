@@ -49,6 +49,7 @@ result.place_pos=place_pos{1};
 result.occupy_rate=sum(sum(sum(area)))/size(area,1)/size(area,2)/size(area,3);
 result.space_confli=space_confli(1);
 result.pher=pher;
+result.area=area;
 % for i=1:Case.N
 %     rectangle('Position',[arriv_time{1}(i)-Paras.T,i-0.8,Paras.T,0.6],'LineWidth',1,'LineStyle','-','Curvature',[0.2,0.2],'facecolor',actual_depar_vehid_job(i)/Paras.K*[0.8,0.8,0.8]);
 %     rectangle('Position',[arriv_time{1}(i),i-0.8,Case.a(i)-arriv_time{1}(i),0.6],'LineWidth',1,'LineStyle','-','Curvature',[0.2,0.2]);

@@ -1,11 +1,15 @@
-function [place_pos,feasib,space_confli,space_confli0]=OptimizePlaceSchedule2(place_pos,arriv_time,area)
+function [place_pos,feasib,space_confli,space_confli0]=OptimizePlaceSchedule2_random_SA(place_pos,arriv_time,area)
 % 摆放问题局部搜索——算法2: 
 global Case Paras
 
-Paras=LoadParas()
 
 % 物料中心摆放位置lms
 lms=ceil(Case.position'+((Case.a+Case.b)/2)'*Paras.v);
+
+% SA参数值设定
+T=1000;
+rate=0.999;
+K=1;
 
 itercount=0;
 maxiter=Paras.maxiter2;
@@ -14,11 +18,12 @@ confli_jobs=find(place_pos(4,:)==1);
 space_confli0=length(confli_jobs);
 while itercount<=maxiter&&~isempty(confli_jobs)
     itercount=itercount+1;
+    T=T*rate;
     disp(['current iter:',int2str(itercount)]);
     
-%     dires={'top','bottom'};
-%     dire=dires{1+(rand(1)>=0.5)};
-    dire='top';
+    dires={'top','bottom'};
+    dire=dires{1+(rand(1)>=0.5)};
+%     dire='top';
     
     % 计算各个待插入的job各自周围的remain空间
     space_remain=zeros(1,length(confli_jobs));
@@ -68,7 +73,13 @@ while itercount<=maxiter&&~isempty(confli_jobs)
         insert_l=insert_ls(insert_lss);
     end
     
-%     insert_l=randperm(3,1);
+    insert_l_2=randperm(3,1);
+    if insert_l_2~=insert_l
+        if rand(1)<exp(-1/K/T)
+            insert_l=insert_l_2;
+        end
+    end
+    disp(['current exp_value:',num2str(exp(-1/K/T))]);
     
     [~,~,area,place_pos]=InsertJobForceByDire(area,place_pos,jobid,arriv_time,lms(jobid)+insert_l-2,dire,1);
     

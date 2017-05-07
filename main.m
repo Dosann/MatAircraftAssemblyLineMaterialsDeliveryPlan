@@ -3,7 +3,7 @@ tic
 format compact
 global trileft Case Paras
 % rand('state',0)
-Case=LoadCase('120job/j1208_10.txt',120);
+Case=LoadCase('120job/j1205_1.txt',120);
 Paras=LoadParas();
 
 [ants,pher,visib]=Initialize;
@@ -65,3 +65,5 @@ figure(3);hold on
 for i=1:Case.N
     DrawCuboid(place_pos{1}(1,i)-1,place_pos{1}(2,i)-1,place_pos{1}(3,i)-1,Case.b(i)-place_pos{1}(1,i)+1,1,Case.m(i),place_pos{1}(4,i));
 end
+
+arriv_time=arriv_time{1};place_pos=place_pos{1};area=bestArea;
