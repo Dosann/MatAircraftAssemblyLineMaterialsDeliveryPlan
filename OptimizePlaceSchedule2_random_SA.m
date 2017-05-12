@@ -65,15 +65,24 @@ while itercount<=maxiter&&~isempty(confli_jobs)
     catch
         kkk=1;
     end
-    insert_ls=find(conflis_3_degree(1,:)==min(conflis_3_degree(1,:)));
+    bestConflictItemCount=min(conflis_3_degree(1,:));
+    insert_ls=find(conflis_3_degree(1,:)==bestConflictItemCount);
     if length(insert_ls)==1
         insert_l=insert_ls;
     else
-        insert_lss=find(conflis_3_degree(2,insert_ls)==min(conflis_3_degree(2,insert_ls)),1,'first');
+        bestConflictSpace=min(conflis_3_degree(2,insert_ls));
+        insert_lss=find(conflis_3_degree(2,insert_ls)==bestConflictSpace,1,'first');
         insert_l=insert_ls(insert_lss);
     end
     
+    % 随机生成一个insert_l位置(1,2,3)
     insert_l_2=randperm(3,1);
+%     [feasibility_2,conflis_2,~,~]=InsertJobForceByDire(area,place_pos,jobid,arriv_time,lms(jobid)+insert_l_2-2,dire,2);
+%     if feasibility_2==1
+%         insert_l=insert_l_2;
+%     else
+%         conflis_2_degree
+    
     if insert_l_2~=insert_l
         if rand(1)<exp(-1/K/T)
             insert_l=insert_l_2;

@@ -1,5 +1,5 @@
 clear;clc;
-
+global Case Paras
 former_results=importdata('实验数据/results_aco.txt');
 former_results_count=size(former_results,1);
 infeasib_results=[];
@@ -20,10 +20,14 @@ for i=1:infeasib_results_count
     caseid=infeasib_results(i,1);
     casename=cns{caseid};
     Case=LoadCase(casename,120);
-    % 检验该算例是否可行
-%     [cipresults,cipconclusion]=CheckIfPossible(Case.b');
-%     if cipconclusion.feasib~=1
-%         
+%     检验该算例是否可行
+    [cipresults,cipconclusion]=CheckIfPossible(Case.a');
+    if cipconclusion.feasib~=1
+        feasib_list(i)=nan;
+        space_confli_list(:,i)=cipconclusion.space_confli;
+        itercount_list(i)=0;
+        continue
+    end
     
     result=main_function(Case);
     objective_list(i)=result.bestObj_hist;

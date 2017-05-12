@@ -3,7 +3,7 @@ tic
 format compact
 global trileft Case Paras
 % rand('state',0)
-Case=LoadCase('120job/j1205_1.txt',120);
+Case=LoadCase('120job/j12030_8.txt',120);
 Paras=LoadParas();
 
 [ants,pher,visib]=Initialize;
