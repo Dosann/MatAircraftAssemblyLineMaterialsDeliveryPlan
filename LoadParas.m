@@ -2,10 +2,10 @@ function Paras=LoadParas()
 Paras.Q=20;
 Paras.T=0;
 Paras.Tload=0;
-Paras.D=200;
+Paras.D=300;
 Paras.K=3;
 Paras.R=10;
-Paras.L=200;
+Paras.L=300;
 Paras.C=20;
 Paras.v=0.5;
 
