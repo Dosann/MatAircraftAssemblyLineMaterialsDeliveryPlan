@@ -1,4 +1,4 @@
-function crowdedness=CalculateCrowdedness()
+function crowdedness=CalculateCrowdedness(mode)
 global Case Paras
 
 % 物料中心摆放位置lms
@@ -13,5 +13,11 @@ for i=1:lms_ub-lms_lb+3
     crowdedness_list(i)=sum(ids.*Case.m')/Paras.C/3;
 end
 crowdedness=mean(crowdedness_list.^2);
+
+if nargin>=1
+    if mode==2
+        crowdedness=crowdedness*mean(Case.duration);
+    end
+end
 
 end

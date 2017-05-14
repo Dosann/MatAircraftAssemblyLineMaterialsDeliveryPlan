@@ -37,7 +37,7 @@ end
 % Case.N=size(data,1)
 % Case.data=data;
 %% ¸ñÊ½2
-f=fopen(strcat('Cases/',casename),'r');
+f=fopen(casename,'r');
 fgetl(f);
 data=zeros(1000,6);
 current=0;

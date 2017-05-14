@@ -27,11 +27,11 @@ results=cell(1,f_num);
 % solvable=LoadSolvable('results/results.txt');
 display(f_num);
 for i=1:f_num
-%     if solvable(i)~=1
+%     if solvable(i)~=0
 %         continue
 %     end
     i
     Case=LoadCase(f{i},90);
     results{i}=main_function(Case);
-    WriteIntoText(results{i},'results/results_aco_20170430');
+    WriteIntoText(results{i},'results/results_aco_20170513');
 end
