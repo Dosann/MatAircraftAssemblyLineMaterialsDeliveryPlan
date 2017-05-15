@@ -3,7 +3,7 @@ clear;clc;close all;format compact;
 global Case Paras
 
 Paras=LoadParas();
-m_maxs=[5,10];
+m_maxs=[15];
 casescales=30:30:300;
 tic
 for a=m_maxs
