@@ -4,8 +4,8 @@ global Case Paras
 
 Paras=LoadParas();
 
-dirs={'Cases1/30job','Cases1/60job','Cases1/90job','Cases1/120job','Cases1/150job', ...
-    'Cases1/180job','Cases1/210job','Cases1/240job','Cases1/270job','Cases1/300job'};
+dirs={'Cases_15/30job','Cases_15/60job','Cases_15/90job','Cases_15/120job','Cases_15/150job', ...
+    'Cases_15/180job','Cases_15/210job','Cases_15/240job','Cases_15/270job','Cases_15/300job'};
 files=cell(1,length(dirs));
 for i=1:length(dirs)
     files_temp=dir(dirs{i});
@@ -41,3 +41,10 @@ for i=1:f_num
     conclu=results{i}.conclusion;
     feasibility(:,i)=[conclu.feasib;conclu.space_confli];
 end
+
+fid=fopen('results/solvability.txt','a');
+for i=1:size(feasibility,2)
+    s=sprintf('%d\t%s\t%d\t%d\r\n',i,f{i}{1},feasibility(1,i),feasibility(2,i));
+    fprintf(fid,s);
+end
+fclose(fid);

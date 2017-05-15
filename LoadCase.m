@@ -52,7 +52,7 @@ while ~feof(f)
     data(current,:)=arrayfun(fun,row);
 end
 data=data(1:current,:);
-Case.postpone=50;
+Case.postpone=400;
 data(:,[2,4])=data(:,[2,4])+Case.postpone;
 
 Case.N=size(data,1);
