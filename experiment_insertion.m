@@ -1,7 +1,8 @@
 clear;clc;
 format compact
 
-dirs={'Cases/30job/','Cases/45job/','Cases/60job/','Cases/90job/','Cases/120job/'}
+dirs={'Cases1/30job','Cases1/60job','Cases1/90job','Cases1/120job','Cases1/150job', ...
+    'Cases1/180job','Cases1/210job','Cases1/240job','Cases1/270job','Cases1/300job'};
 files=cell(1,length(dirs));
 for i=1:length(dirs)
     files_temp=dir(dirs{i});
@@ -31,7 +32,7 @@ for i=1:f_num
 %         continue
 %     end
     i
-    Case=LoadCase(f{i},90);
+    Case=LoadCase(strcat('Cases1/',f{i}),999);
     results{i}=main_insertion_function(Case);
-    WriteIntoTextInsertion(results{i},'results/results_insertion_20170512.txt');
+    WriteIntoTextInsertion(results{i},'results/results_insertion_20170515.txt');
 end

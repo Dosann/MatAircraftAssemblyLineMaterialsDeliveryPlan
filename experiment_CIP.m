@@ -4,7 +4,8 @@ global Case Paras
 
 Paras=LoadParas();
 
-dirs={'Cases/30job/','Cases/45job/','Cases/60job/','Cases/90job/','Cases/120job/'}
+dirs={'Cases1/30job','Cases1/60job','Cases1/90job','Cases1/120job','Cases1/150job', ...
+    'Cases1/180job','Cases1/210job','Cases1/240job','Cases1/270job','Cases1/300job'};
 files=cell(1,length(dirs));
 for i=1:length(dirs)
     files_temp=dir(dirs{i});
@@ -31,7 +32,7 @@ results=cell(1,f_num);
 display(f_num);
 for i=1:f_num
     i
-    Case=LoadCase(f{i},120);
+    Case=LoadCase(strcat('Cases1/',f{i}),999);
     [results{i}.results,results{i}.conclusion]=CheckIfPossible(Case.a');
 end
 

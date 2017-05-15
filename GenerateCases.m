@@ -3,14 +3,14 @@ clear;clc;close all;format compact;
 global Case Paras
 
 Paras=LoadParas();
-m_maxs=[15];
-casescales=90;
+m_maxs=[5,10,15];
+casescales=30:30:300;
 tic
 for a=m_maxs
     for b=casescales
         [a,b]
         toc
-        CaseParas.casecount=10000;
+        CaseParas.casecount=300000;
         CaseParas.casescale=b;
         CaseParas.a_lambda=2;
         CaseParas.duration_max=10;
@@ -21,11 +21,10 @@ for a=m_maxs
 
         crowdness=zeros(1,CaseParas.casecount);
         mean_duration=zeros(1,CaseParas.casecount);
-%         current=zeros(1,5);
-        current=49;
+        current=zeros(1,5);
+        cases_cated=cell(1,5);
         for i=1:CaseParas.casecount
             Case=cases{i};
-            cases_cated=cell(1,5);
             crowdness(i)=CalculateCrowdedness();
             if crowdness(i)<0.4
                 cateid=1;
@@ -43,13 +42,14 @@ for a=m_maxs
             if cateid==6
                 continue;
             end
-%             if current(cateid)>=50
-            if current>=50
+            if current(cateid)>=50
                 continue
             end
-%             current(cateid)=current(cateid)+1;
-            current=current+1;
-%             cases_cated{cateid}.case{current(cateid)}=Case;
+            if sum(current(cateid))==250
+                break
+            end
+            current(cateid)=current(cateid)+1;
+            cases_cated{cateid}.case{current(cateid)}=cases{i};
 
             mean_duration(i)=mean(Case.duration);
 
@@ -58,8 +58,8 @@ for a=m_maxs
 %         hist(crowdness);
 
         for i=1:5
-%             for j=1:current(i)
-            for j=current
+            for j=1:current(i)
+                Case=cases_cated{i}.case{j};
                 WriteCases('Cases1',j,i,CaseParas.m_max);
             end
         end
