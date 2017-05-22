@@ -2,15 +2,16 @@ function WriteIntoText(results,filename)
 datalength=length(results);
 f=fopen(filename,'a');
 for i=1:datalength
-    if length(results{i})==0
+    if length(results)==0
         fprintf(f,int2str(i));
         fprintf(f,'\r\n');
     else
         fprintf(f,int2str(i));
         fprintf(f,'\t');
-        if results{i}.feasib==0
-            fprintf(f,num2str(results{i}.bestObj_hist));
-        fprintf(f,num2str(results{i}.bestObj_hist));
+%         if results.feasib==0
+%             fprintf(f,num2str(results.bestObj_hist));
+%         end
+        fprintf(f,num2str(results.bestObj_hist));
         fprintf(f,'\r\n');
     end
 end
