@@ -68,7 +68,7 @@ Constraints=[Constraints,-((repmat(c0'+Case.m,1,Case.N)-1)-repmat(c0,Case.N,1))/
 Constraints=[Constraints,-((repmat(c0'+Case.m,1,Case.N)-1)-repmat(c0,Case.N,1))'/M+1+diag(ones(1,Case.N)*2)>=c2_ol*1.00001,-((repmat(c0'+Case.m,1,Case.N)-1)-repmat(c0,Case.N,1))'/M-diag(ones(1,Case.N)*2)<=c2_ol];
 Constraints=[Constraints,(d1_ol+d2_ol+l1_ol+l2_ol+c1_ol+c2_ol)>=1];
 % »ù±¾Ô¼Êø
-Constraints=[Constraints,1<=d0<=Paras.D,1<=l0<=Paras.L,1<=c0<=Paras.C];
+Constraints=[
 
 options = sdpsettings('solver','cplex','showprogress',1);
 options.cplex.MaxTime=3600;

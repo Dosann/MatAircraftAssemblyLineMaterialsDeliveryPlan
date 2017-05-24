@@ -5,7 +5,8 @@ Paras=LoadParas();
 conn=database('thesis','cdb_outerroot','Aa123456','com.mysql.jdbc.Driver','jdbc:mysql://590ab5bb84735.sh.cdb.myqcloud.com:14803/thesis');
 
 
-cursor=exec(conn,sprintf('select id,data from cases where cplex_solvable=''%s''','infeasible'));
+% cursor=exec(conn,sprintf('select id,data from cases where cplex_solvable=''%s''','infeasible'));
+cursor=exec(conn,sprintf('select id,data from cases where id=206'));
 cases=fetch(cursor);
 cases=cases.Data;
 if strcmp(cases{1},'No Data')
