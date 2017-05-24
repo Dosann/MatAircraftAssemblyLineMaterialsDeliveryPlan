@@ -31,7 +31,7 @@ conn=database('thesis','cdb_outerroot','Aa123456','com.mysql.jdbc.Driver','jdbc:
 results=cell(1,1000);
 % solvable=LoadSolvable('results/results.txt');
 % results_batches=cell(1,50);
-cursor=exec(conn,sprintf('select id,data from cases where m_ub=11 limit %d,%d',0,3000));
+cursor=exec(conn,sprintf('select id,data from cases where m_ub=11 limit %d,%d',1200,1200));
 cases=fetch(cursor);
 cases=cases.Data;
 for i=1:size(cases,1)
