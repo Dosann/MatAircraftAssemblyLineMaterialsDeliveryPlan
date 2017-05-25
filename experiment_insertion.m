@@ -1,38 +1,19 @@
-clear;clc;
-format compact
+clear;clc;format compact;close all;
+global Case Paras
+Paras=LoadParas();
+conn=database('thesis','cdb_outerroot','Aa123456','com.mysql.jdbc.Driver','jdbc:mysql://590ab5bb84735.sh.cdb.myqcloud.com:14803/thesis');
 
-dirs={'Cases1/30job','Cases1/60job','Cases1/90job','Cases1/120job','Cases1/150job', ...
-    'Cases1/180job','Cases1/210job','Cases1/240job','Cases1/270job','Cases1/300job'};
-files=cell(1,length(dirs));
-for i=1:length(dirs)
-    files_temp=dir(dirs{i});
-    files{i}=cell(1,length(files_temp));
-    for j=1:length(files_temp)
-        if files_temp(j).isdir==0
-            dirs_2=split(dirs{i},'/');
-            files{i}{j}=strcat(dirs_2(2),'/',string(files_temp(j).name));
-        end
-    end
+cursor=exec(conn,'select id,data from cases where result_insertion is null');
+cases=fetch(cursor);
+cases=cases.Data;
+
+datalength=size(cases,1);
+for i=1:datalength
+    cases{i,1}
+    Case=jsondecode(cases{i,2});
+    result=main_insertion_function();
+    result=jsonencode(result);
+    exec(conn,sprintf('update cases set result_insertion=''%s'' where id=%d',result,cases{i,1}));
 end
-f={}
-f_num=0
-for i=1:length(files)
-    for j=1:length(files{i})
-        if length(files{i}{j})~=0
-            f_num=f_num+1;
-            f{f_num}=files{i}{j};
-        end
-    end
-end
-results=cell(1,f_num);
-% solvable=LoadSolvable('results/results.txt');
-display(f_num);
-for i=1:f_num
-%     if solvable(i)~=1
-%         continue
-%     end
-    i
-    Case=LoadCase(strcat('Cases1/',f{i}),999);
-    results{i}=main_insertion_function(Case);
-    WriteIntoTextInsertion(results{i},'results/results_insertion_20170515.txt');
-end
+
+close(conn);
