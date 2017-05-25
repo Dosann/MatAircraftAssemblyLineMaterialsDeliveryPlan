@@ -35,12 +35,14 @@ for n=30:30:300
             cases=cases.Data;
 
             if strcmp(cases{1},'No Data')
+                current=current+left_count;
                 fprintf('No Data: %d,%d,%d',n,m_ub,d_cate);
                 continue
             end
 
-            
-            for i=1:size(cases,1)
+            casecount=size(cases,1);
+            current=current+left_count-casecount;
+            for i=1:casecount
                 current=current+1;
                 fprintf('current progress: %d/%d\n',current,150*cases_tcpc);
                 fprintf('current Case id: %d\n',cases{i,1});
