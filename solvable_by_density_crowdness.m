@@ -10,22 +10,22 @@ figure(1);
 subplot(1,2,1);hold on;
 for i=1:size(cases,1)
     if strcmp(cases{i,5},'feasible')
-        plot(cases{i,2},cases{i,3},'greeno');
+        plot(cases{i,2}+rand(1)*10-5,cases{i,3},'greeno');
     elseif strcmp(cases{i,5},'unknown')
-        plot(cases{i,2},cases{i,3},'blueo');
+        plot(cases{i,2}+rand(1)*10-5,cases{i,3},'blueo');
     else
-        plot(cases{i,2},cases{i,3},'redo');
+        plot(cases{i,2}+rand(1)*10-5,cases{i,3},'redo');
     end
 end
 
 subplot(1,2,2);hold on;
 for i=1:size(cases,1)
     if strcmp(cases{i,5},'feasible')
-        plot(cases{i,2},cases{i,4},'greeno');
+        plot(cases{i,2}+rand(1)*10-5,cases{i,4},'greeno');
     elseif strcmp(cases{i,5},'unknown')
-        plot(cases{i,2},cases{i,4},'blueo');
+        plot(cases{i,2}+rand(1)*10-5,cases{i,4},'blueo');
     else
-        plot(cases{i,2},cases{i,4},'redo');
+        plot(cases{i,2}+rand(1)*10-5,cases{i,4},'redo');
     end
 end
 

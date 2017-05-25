@@ -20,7 +20,7 @@ space_confli0=length(confli_jobs);
 while itercount<=maxiter&&~isempty(confli_jobs)
     itercount=itercount+1;
     T=T*rate;
-    disp(['current iter:',int2str(itercount)]);
+%     disp(['current iter:',int2str(itercount)]);
     
     dires={'top','bottom'};
     dire=dires{1+(rand(1)>=0.5)};
@@ -32,11 +32,7 @@ while itercount<=maxiter&&~isempty(confli_jobs)
     for jobid=confli_jobs
         i=i+1;
         if lms(jobid)~=1
-            try
-                space_remain(i)=space_remain(i)+sum(area(arriv_time(jobid),lms(jobid)-1,:)==0);
-            catch
-                kkk=1;
-            end
+            space_remain(i)=space_remain(i)+sum(area(arriv_time(jobid),lms(jobid)-1,:)==0);
         end
         space_remain(i)=space_remain(i)+sum(area(arriv_time(jobid),lms(jobid),:)==0);
         if lms(jobid)~=Paras.L
@@ -84,24 +80,26 @@ while itercount<=maxiter&&~isempty(confli_jobs)
             insert_l=insert_l_2;
         end
     end
-    disp(['current exp_value:',num2str(threshold)]);
+%     disp(['current exp_value:',num2str(threshold)]);
     
     [~,~,area,place_pos]=InsertJobForceByDire(area,place_pos,jobid,arriv_time,lms(jobid)+insert_l-2,dire,1);
     
     confli_jobs=find(place_pos(4,:)==1);
-    disp(['inserted_job:',int2str(jobid)]);
-    disp(['confli_job:',mat2str(confli_jobs)]);
+%     disp(['inserted_job:',int2str(jobid)]);
+%     disp(['confli_job:',mat2str(confli_jobs)]);
 end
 
 % 检验最终结果是否可行
 if isempty(confli_jobs)
     feasib=1;
+    disp('repair succeeded!')
 else
     feasib=0;
+    disp('repair failed...')
 end
 space_confli=length(confli_jobs);
 
-DrawCuboids(place_pos);
+% DrawCuboids(place_pos);
 
 
 end
