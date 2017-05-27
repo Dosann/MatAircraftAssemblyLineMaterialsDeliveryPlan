@@ -8,7 +8,7 @@ conn=database('thesis','cdb_outerroot','Aa123456','com.mysql.jdbc.Driver','jdbc:
 cases_tcpc=3;
 current=0;
 for n=30:30:300
-    for m_ub=5:1:7
+    for m_ub=11:1:12
         for d_cate=1:5
             cursor=exec(conn,sprintf('select count(*) from cases where cplex_solvable is not null and N=%d and m_ub=%d and density_cate=%d',n,m_ub,d_cate));
             if strcmp(cursor.Message,'Invalid connection.')

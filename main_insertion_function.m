@@ -1,6 +1,5 @@
-function result=main_insertion_function(Case1)
+function result=main_insertion_function()
 global Case Paras
-Case=Case1;
 Paras=LoadParas();
 
 remained_job_count=Case.N;
@@ -51,9 +50,9 @@ end
 
 [place_pos,feasib,space_confli,~,~]=SchedulePlacePosition(arriv_time);
 
-result.batches=batches;
-result.place_pos=place_pos;
+result.obj=length(unique(inserted_job))+10.1*space_confli;
 result.feasib=feasib;
 result.space_confli=space_confli;
-result.obj=length(unique(inserted_job))+10.1*result.space_confli;
+result.batches=batches;
+result.place_pos=place_pos;
 end
