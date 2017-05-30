@@ -8,8 +8,8 @@ conn=database('thesis','cdb_outerroot','Aa123456','com.mysql.jdbc.Driver','jdbc:
 cursor=exec(conn,sprintf('select id,data from SA_aco'));
 cases=fetch(cursor);
 cases=cases.Data;
-for beta=0.1:0.1:0.4
-    for pass_rate=4
+for beta=0.1:0.1:0.2
+    for pass_rate=1
         for i=1:size(cases,1)
             cases{i,1}
             

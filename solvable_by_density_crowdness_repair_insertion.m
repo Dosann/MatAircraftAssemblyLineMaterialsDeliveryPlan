@@ -64,7 +64,7 @@ sp1.FontSize=9;
 % find(sort(cases(:,3))>hyperplane1,1)/size(cases,1)
 % find(sort(cases(:,4))>hyperplane2,1)/size(cases,1)
 
-%% classification
+%% classification 1
 precision=zeros(1,200);
 for i=0.01:0.01:2
     precision(round(i*100))=(sum(cases(:,3)>=i & cases(:,5)==0)+sum(cases(:,3)<i & cases(:,5)==1))/size(cases,1);
@@ -80,6 +80,26 @@ end
 max(precision)
 plane2=find(precision==max(precision),1)/100
 subplot(1,2,2);plot([0,350],[plane2,plane2],'black--');
+
+find(sort(cases(:,3))>plane1,1)/size(cases,1)
+find(sort(cases(:,4))>plane2,1)/size(cases,1)
+
+%% classification 2
+precision=zeros(1,200);
+for i=0.01:0.01:2
+    precision(round(i*100))=(sum(cases(:,3)>=i & cases(:,7)==0)+sum(cases(:,3)<i & cases(:,7)==1))/size(cases,1);
+end
+max(precision)
+plane1=find(precision==max(precision),1)/100
+subplot(1,2,1);plot([0,350],[plane1,plane1],'red--');
+
+precision=zeros(1,2000);
+for i=0.01:0.01:20
+    precision(round(i*100))=(sum(cases(:,4)>=i & cases(:,7)==0)+sum(cases(:,4)<i & cases(:,7)==1))/size(cases,1);
+end
+max(precision)
+plane2=find(precision==max(precision),1)/100
+subplot(1,2,2);plot([0,350],[plane2,plane2],'red--');
 
 find(sort(cases(:,3))>plane1,1)/size(cases,1)
 find(sort(cases(:,4))>plane2,1)/size(cases,1)
