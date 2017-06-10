@@ -1,6 +1,6 @@
 clear;clc;format compact;set(0,'defaultfigurecolor','white');
 Paras=LoadParas();
-conn=database('thesis','cdb_outerroot','Aa123456','com.mysql.jdbc.Driver','jdbc:mysql://590ab5bb84735.sh.cdb.myqcloud.com:14803/thesis');
+conn=database('thesis','root','Csstsari107','com.mysql.jdbc.Driver','jdbc:mysql://rm-bp10rf4zreaw5he66o.mysql.rds.aliyuncs.com:3306/thesis');
 
 cursor=exec(conn,'select id,N,density,crowdness,aco_feasib from cases where m_ub<=10');
 cases=fetch(cursor);
