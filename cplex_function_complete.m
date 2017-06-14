@@ -85,6 +85,7 @@ if strcmp(sol.info,'Successfully solved (CPLEX-IBM)')==true
     solution.ss=value(ss);
     solution.arriv_time=round(value(d0));
     solution.place_pos=round([value(d0);value(l0);value(c0);zeros(1,Case.N)]);
+    solution.solvertime=sol.solvertime;
 %     solution.d1_ol=value(d1_ol);
 %     solution.d2_ol=value(d2_ol);
 %     solution.l1_ol=value(l1_ol);
@@ -102,6 +103,7 @@ elseif strcmp(sol.info,'Maximum iterations or time limit exceeded (CPLEX-IBM)')=
     solution.ss=value(ss);
     solution.arriv_time=round(value(d0));
     solution.place_pos=round([value(d0);value(l0);value(c0);zeros(1,Case.N)]);
+    solution.solvertime=sol.solvertime;
 %     solution.d1_ol=value(d1_ol);
 %     solution.d2_ol=value(d2_ol);
 %     solution.l1_ol=value(l1_ol);
@@ -109,7 +111,8 @@ elseif strcmp(sol.info,'Maximum iterations or time limit exceeded (CPLEX-IBM)')=
 %     solution.c1_ol=value(c1_ol);
 %     solution.c2_ol=value(c2_ol);
 else
-    solution.feasibility='infeasible'
+    solution.feasibility='infeasible';
+    solution.solvertime=sol.solvertime;
 
 end
 % figure(1);axis([-50,max(Paras.Data(:,4))+5,0,Case.N]);

@@ -23,7 +23,7 @@ sp1=subplot(1,2,1);hold on;
 both_feasib=cases(:,5)==1 & cases(:,6)==1;
 insertion_feasib=cases(:,5)==1 & cases(:,6)==0;
 cplex_feasib=cases(:,5)==0 & cases(:,6)==1;
-both_infeasib=cplex_feasib==0 & cases(:,6)==0;
+both_infeasib=cases(:,5)==0 & cases(:,6)==0;
 
 plot(cases(both_feasib,2)+rand(sum(both_feasib==1),1)*10-5,cases(both_feasib,3),'green.');
 plot(cases(insertion_feasib,2)+rand(sum(insertion_feasib==1),1)*10-5,cases(insertion_feasib,3),'blueo');
@@ -43,7 +43,7 @@ sp2=subplot(1,2,2);hold on;
 both_feasib=cases(:,5)==1 & cases(:,6)==1;
 insertion_feasib=cases(:,5)==1 & cases(:,6)==0;
 cplex_feasib=cases(:,5)==0 & cases(:,6)==1;
-both_infeasib=cplex_feasib==0 & cases(:,6)==0;
+both_infeasib=cases(:,5)==0 & cases(:,6)==0;
 
 plot(cases(both_feasib,2)+rand(sum(both_feasib==1),1)*10-5,cases(both_feasib,4),'green.');
 plot(cases(insertion_feasib,2)+rand(sum(insertion_feasib==1),1)*10-5,cases(insertion_feasib,4),'blueo');

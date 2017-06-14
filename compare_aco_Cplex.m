@@ -32,7 +32,7 @@ both_unsolvable_count=sum(both_unsolvable)
 both_feasib=cases(:,5)==1 & cases(:,6)==1;
 insertion_feasib=cases(:,5)==1 & cases(:,6)==0;
 cplex_feasib=cases(:,5)==0 & cases(:,6)==1;
-both_infeasib=cplex_feasib==0 & cases(:,6)==0;
+both_infeasib=cases(:,5)==0 & cases(:,6)==0;
 
 
 figure()

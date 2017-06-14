@@ -41,7 +41,7 @@ end
 Constraints=[Constraints,-500<=s<=Paras.D,-500<=l<=Paras.D];
 
 options = sdpsettings('solver','cplex','showprogress',1);
-options.cplex.MaxTime=600;
+options.cplex.MaxTime=10;
 sol=optimize(Constraints,Objective,options);
 
 if strcmp(sol.info,'Successfully solved (CPLEX-IBM)')==true
